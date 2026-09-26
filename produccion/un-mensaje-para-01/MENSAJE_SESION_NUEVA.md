@@ -14,7 +14,7 @@ Las fotos y la plantilla ya están hechas. Falta: revisar las fotos, tirar los 1
 entregarme la pieza.
 Portero de Jev activo en cada tirada (la llave ya está en el entorno como AI_GATEWAY_API_KEY). Mide cada
 clip antes de dármelo y repite solo lo que falle.
-Tope total de la pieza: 450 créditos; ya se gastaron 16. El saldo no puede bajar de 3,974.2: si vas a pasarte,
+Tope total de la pieza: 450 créditos; ya se gastaron 24. El saldo no puede bajar de 3,974.2: si vas a pasarte,
 paras y me preguntas.
 La cara sale siempre del Element 9f7b6d3f, nunca de otra foto generada, y siempre amable, nunca seria.
 Al final dame la pieza, la lista de palabras para mi oído y los créditos gastados.

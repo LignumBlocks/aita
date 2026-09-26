@@ -17,8 +17,8 @@ Los mismos de `studio/pieces/un-mensaje-para-01/PROMPTS.md` (rama `claude/tender
 |---|---|---|---|---|
 | Escena 1 | A · frente al mesón | `ce836ea4-3f00-4fc6-8845-63267847a516` | 11 s | 33 |
 | Escena 2 | B · de lado en la estufa | `6bc90946-4313-4452-88d4-151e7d1d4285` | 10 s | 30 |
-| Escena 3 | B · de lado en la estufa | `0cf8eaf1-877c-46f0-a6a4-f4d632f9e66e` | 12 s | 36 |
-| Escena 4 | A · frente al mesón | `bdf97679-18fa-4821-80ed-760428c76286` | 12 s | 36 |
+| Escena 3 | B · de lado en la estufa | `dcdc8eda-c377-45aa-9fbe-85d36cae88ce` | 12 s | 36 |
+| Escena 4 | A · frente al mesón | `6e489f87-af10-42ab-8da7-70038c24b855` | 12 s | 36 |
 | Escena 5 | A · frente al mesón | `e1e3e993-5c96-4093-99e8-83f43b7e62c8` | 11 s | 33 |
 | Escena 6 | C · en la mesa | `258a581d-ab57-4022-a3e1-91b9d05f661f` | 12 s | 36 |
 | Escena 7 | C · en la mesa | `258a581d-ab57-4022-a3e1-91b9d05f661f` | 13 s | 39 |
@@ -49,7 +49,7 @@ His hands stay busy with the coffee while he talks. His voice is the voice of th
 Sound: the click of the burner, a quiet kitchen behind his voice. No music: no background music, no score, no soundtrack. No subtitles, no captions and no on-screen text.
 ```
 
-## Escena 3 · 12 s · arranque `0cf8eaf1-877c-46f0-a6a4-f4d632f9e66e`
+## Escena 3 · 12 s · arranque `dcdc8eda-c377-45aa-9fbe-85d36cae88ce`
 
 ```
 The man is exactly the man in <<<9f7b6d3f-bc9b-47e2-8c26-989e7c425614>>>: same face, head shape and bone structure, bald and clean-shaven, with the same skin tone, looking healthy and rested; keep his face identical to the reference. He wears a plain solid terracotta short-sleeve polo shirt, a burnt orange-red like brick, with no logo, no stripes and no pattern, and a simple watch with a dark strap on his left wrist.
@@ -58,7 +58,7 @@ His face is relaxed and friendly: a slight, natural closed-mouth smile, warm eye
 A single frame from a real vertical phone video, not a photo shoot: everything in focus like a phone camera, plain mixed daylight, slight phone-camera noise, slightly imperfect framing. No cinematic lighting, no shallow depth of field, no color grading, no glamour. The upper third of the frame stays calm for captions added later. No text, no logos, no writing anywhere, and no phone visible in the frame.
 ```
 
-## Escena 4 · 12 s · arranque `bdf97679-18fa-4821-80ed-760428c76286`
+## Escena 4 · 12 s · arranque `6e489f87-af10-42ab-8da7-70038c24b855`
 
 ```
 The man is exactly the man in <<<9f7b6d3f-bc9b-47e2-8c26-989e7c425614>>>: same face, head shape and bone structure, bald and clean-shaven, with the same skin tone, looking healthy and rested; keep his face identical to the reference. He wears a plain solid terracotta short-sleeve polo shirt, a burnt orange-red like brick, with no logo, no stripes and no pattern, and a simple watch with a dark strap on his left wrist.
