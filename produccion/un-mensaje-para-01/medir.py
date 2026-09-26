@@ -24,6 +24,9 @@ import wave
 
 import numpy as np
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from texto_es import palabras_normales  # noqa: E402
+
 FFMPEG = os.environ.get("FFMPEG", "ffmpeg")
 
 
@@ -92,8 +95,8 @@ def main():
     segs, _ = modelo.transcribe(wav, language="es", word_timestamps=True, beam_size=5)
     segs = list(segs)
     palabras = [(w.word, w.start, w.end) for s in segs for w in s.words]
-    oidas = [normalizar(w) for w, _, _ in palabras if normalizar(w)]
-    esperadas = [normalizar(w) for w in guion.split() if normalizar(w)]
+    oidas = palabras_normales(" ".join(w for w, _, _ in palabras))
+    esperadas = palabras_normales(guion)
     sm = difflib.SequenceMatcher(None, esperadas, oidas, autojunk=False)
     iguales = sum(n for _, _, n in sm.get_matching_blocks())
     faltan = [" ".join(esperadas[i1:i2]) for tag, i1, i2, _, _ in sm.get_opcodes() if tag in ("delete", "replace")]

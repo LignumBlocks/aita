@@ -32,6 +32,9 @@ import unicodedata
 
 from PIL import Image, ImageDraw, ImageFont
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from texto_es import palabras_normales  # noqa: E402
+
 BASE = os.path.dirname(os.path.abspath(__file__))
 FONTS = os.path.join(BASE, "fonts")
 FFMPEG = os.environ.get("FFMPEG", "ffmpeg")
@@ -245,7 +248,7 @@ def tokens_de(subs):
             disp, oido = m[5], [m[5]]
         clave = "*" in disp
         disp = disp.replace("*", "")
-        oido = [normalizar(x) for x in oido if normalizar(x)]
+        oido = palabras_normales(" ".join(oido))
         out.append({"disp": disp, "oido": oido, "clave": clave, "tarjeta": ancla,
                     "corte": bool(re.search(r"[.?!:;,]$", disp))})
         ancla = None
@@ -264,7 +267,7 @@ def repartir(tokens, t0, t1):
 
 def alinear(tokens, palabras):
     """Pone a cada token el tiempo de sus palabras oídas, con la lista de whisper [(texto, t0, t1)]."""
-    oidas = [(normalizar(w), a, b) for w, a, b in palabras if normalizar(w)]
+    oidas = [(n, a, b) for w, a, b in palabras for n in palabras_normales(w)]
     esperadas, dueno = [], []
     for i, tok in enumerate(tokens):
         for w in tok["oido"]:
@@ -275,6 +278,7 @@ def alinear(tokens, palabras):
     for a, b, n in sm.get_matching_blocks():
         for k in range(n):
             tiempos[a + k] = oidas[b + k][1:]
+    cobertura = sum(1 for t in tiempos if t) / max(1, len(tiempos))
     # huecos: interpolar entre vecinos conocidos
     conocidos = [i for i, t in enumerate(tiempos) if t]
     for i in range(len(tiempos)):
@@ -293,7 +297,7 @@ def alinear(tokens, palabras):
         ts = [tiempos[k] for k in range(len(esperadas)) if dueno[k] == i]
         if ts:
             tok["t0"], tok["t1"] = min(a for a, _ in ts), max(b for _, b in ts)
-    return sum(1 for t in tiempos if t) / max(1, len(tiempos))
+    return cobertura
 
 
 def whisper_palabras(wav, texto_guion):
