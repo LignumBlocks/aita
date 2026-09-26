@@ -8,16 +8,17 @@
     "linea2": "los que pagan más de **$2,000** de renta"
   },
   "capas": {
-    "titulo_y": 250,
+    "titulo_y": 200,
     "hueco": 6,
-    "max_tarjetas": 3,
+    "max_tarjetas": 2,
     "cuenta": {
       "escena": 7,
       "desde": 0.0,
       "hasta": 2.7,
       "velo": 0.45
     },
-    "cuenta_escala": 0.82
+    "cuenta_escala": 0.82,
+    "tarjeta_escala": 0.85
   },
   "subs": {
     "size": 78,

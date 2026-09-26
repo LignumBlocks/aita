@@ -445,7 +445,7 @@ def capa_textos(cfg, escenas_t, tokens_abs, total, work):
         if tok.get("tarjeta"):
             tarjetas[tok["tarjeta"]]["t"] = tok["t0"]
     orden = sorted([c for c in tarjetas.values() if "t" in c], key=lambda c: c["t"])
-    img_tarjeta = {c["id"]: render_tarjeta(c["texto"], W) for c in orden}
+    img_tarjeta = {c["id"]: render_tarjeta(c["texto"], W, escala=cfg["capas"].get("tarjeta_escala", 1.0)) for c in orden}
     img_mini = {c["id"]: render_tarjeta(c["texto"], W, escala=cfg["capas"]["cuenta_escala"]) for c in orden}
     grupos = agrupar(tokens_abs, W, cfg)
     fin_placa = total - cfg["placa"]["dur"]
