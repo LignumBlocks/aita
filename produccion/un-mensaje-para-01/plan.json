@@ -14,7 +14,7 @@
     "cuenta": {
       "escena": 7,
       "desde": 0.0,
-      "hasta": 3.0,
+      "hasta": 2.7,
       "velo": 0.45
     },
     "cuenta_escala": 0.82
@@ -51,23 +51,23 @@
   "escenas": [
     {
       "id": 1,
-      "src": "PENDIENTE_clip_escena_1",
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_212138_7ef16e33-fd47-4184-901d-db0774c3ce87.mp4",
       "in": 0.0,
-      "out": 11.0,
+      "out": 9.7,
       "insertos": [
         {
-          "src": "PENDIENTE_clip_I1",
-          "en": 5.0,
-          "dur": 2.2,
-          "src_in": 0.4,
-          "vol": 0.5
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_212315_0ddd816b-189b-42f3-893f-f6074a05b1ed.mp4",
+          "en": 4.6,
+          "dur": 2.0,
+          "src_in": 0.5,
+          "vol": 0.4
         }
       ],
       "subs": "Un mensaje para los que pagan más de [*$2,000*|dos mil dólares] de *renta*: tu renta ya alcanza para un *condo*. Lo que te falta es *otra* *cosa*."
     },
     {
       "id": 2,
-      "src": "PENDIENTE_clip_escena_2",
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_212139_c05e5d46-f6fb-464a-90cd-3c050d9fae5c.mp4",
       "in": 0.0,
       "out": 10.0,
       "insertos": [],
@@ -75,65 +75,65 @@
     },
     {
       "id": 3,
-      "src": "PENDIENTE_clip_escena_3",
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_212236_9b2eef8c-fc4a-4809-9c88-81d2ea049e0d.mp4",
       "in": 0.0,
-      "out": 12.0,
+      "out": 11.0,
       "insertos": [
         {
-          "src": "PENDIENTE_clip_I2",
-          "en": 0.6,
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_212314_526fc931-cb1a-46f6-9b48-073b2a5c0710.mp4",
+          "en": 0.5,
           "dur": 2.2,
-          "src_in": 0.3,
-          "vol": 0.6
+          "src_in": 0.5,
+          "vol": 0.4
         }
       ],
       "subs": "¿Entonces qué te *falta*? El pago del mes no: ese ya lo haces. Te falta el {c2}*dinero* *para* *entrar*. Y ese número depende de tu *crédito* y de tus *ahorros*."
     },
     {
       "id": 4,
-      "src": "PENDIENTE_clip_escena_4",
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_212138_eef3a0a0-bec8-4214-907c-fede7ee712fe.mp4",
       "in": 0.0,
-      "out": 12.0,
+      "out": 10.0,
       "insertos": [
         {
-          "src": "PENDIENTE_clip_I3",
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_212314_86b3a9e7-ba30-42bb-ac14-553b2342d9be.mp4",
           "en": 0.2,
-          "dur": 2.4,
-          "src_in": 0.4,
-          "vol": 0.5
+          "dur": 2.2,
+          "src_in": 0.5,
+          "vol": 0.4
         }
       ],
       "subs": "Y aquí viene lo *bueno*. El condado de {c3}[*Miami-Dade*|miami dade] tiene *ayuda* para el pago inicial, y casi nadie la conoce. Yo te digo si *calificas*."
     },
     {
       "id": 5,
-      "src": "PENDIENTE_clip_escena_5",
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_212237_a9429bad-055b-4c9d-9dd9-909850f771c2.mp4",
       "in": 0.0,
-      "out": 11.0,
+      "out": 9.0,
       "insertos": [
         {
-          "src": "PENDIENTE_clip_I4",
-          "en": 8.6,
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_212314_f686011f-0e9a-4a6f-b995-d6feaecfbb95.mp4",
+          "en": 6.6,
           "dur": 2.2,
-          "src_in": 0.6,
-          "vol": 0.5
+          "src_in": 0.5,
+          "vol": 0.4
         }
       ],
       "subs": "¿Y el *banco*? Para un condo así, el banco te pide ganar {c4}unos [*$53,000*|cincuenta y tres mil] al año, si no tienes otras deudas."
     },
     {
       "id": 6,
-      "src": "PENDIENTE_clip_escena_6",
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_212236_3c597494-d8cf-4f6e-a6c8-7671d5a83fb0.mp4",
       "in": 0.0,
-      "out": 12.0,
+      "out": 10.0,
       "insertos": [],
       "subs": "Míralo así: tú ya pagas una *hipoteca*. La de tu *landlord*. En [5 años|cinco años] le das {c5}[*$132,000*|ciento treinta y dos mil dólares]. Y la casa sigue siendo *de* *él*."
     },
     {
       "id": 7,
-      "src": "PENDIENTE_clip_escena_7",
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_212236_cc819bfa-3a77-45bd-9785-f2859fed7cd2.mp4",
       "in": 0.0,
-      "out": 13.0,
+      "out": 11.0,
       "insertos": [],
       "subs": "Esa es la *cuenta* de alguien como tú. ¿Cuánto te falta *a* *ti* para entrar? Te lo calculo en [*umbralio.com*|umbralio punto com]. Soy Nelson, *realtor*. Ese era tu *mensaje*."
     }
@@ -223,10 +223,10 @@
   "cuestionario": {
     "escena": 7,
     "src": "https://d2ol7oe51mr4n9.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/4b946ccb-4420-4591-a4b8-9fb837e7e244.mp4",
-    "src_in": 1.0,
-    "velocidad": 1.97,
-    "desde": 3.0,
-    "hasta": 9.2,
+    "src_in": 5.0,
+    "velocidad": 1.93,
+    "desde": 2.75,
+    "hasta": 7.0,
     "pip": {
       "x": 36,
       "y": 1080,
@@ -324,5 +324,6 @@
       "insertos": [],
       "subs": "Esa es la *cuenta* de alguien como tú. ¿Cuánto te falta *a* *ti* para entrar? Te lo calculo en [*umbralio.com*|umbralio punto com]. Soy Nelson, *realtor*. Ese era tu *mensaje*."
     }
-  ]
+  ],
+  "_version_escenas": "condo: los 11 clips que tiró otra sesión el 26-sep a las 21:21 UTC (medidos con medir.py y caras.py)"
 }
