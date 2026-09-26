@@ -181,8 +181,8 @@ def render_titulo(cfg, W):
     return sombra(im)
 
 
-def render_tarjeta(texto, W, escala=1.0):
-    ancho = int(W * 0.88 * escala)
+def render_tarjeta(texto, W, escala=1.0, ancho_escala=None):
+    ancho = int(W * 0.88 * (escala if ancho_escala is None else ancho_escala))
     size = int(W * 0.034 * escala)
     tmp = ImageDraw.Draw(Image.new("RGBA", (10, 10)))
     lineas = maquetar(tmp, partes_markup(texto), size, ancho - int(56 * escala), base="Outfit-Medium.ttf")
@@ -445,7 +445,8 @@ def capa_textos(cfg, escenas_t, tokens_abs, total, work):
         if tok.get("tarjeta"):
             tarjetas[tok["tarjeta"]]["t"] = tok["t0"]
     orden = sorted([c for c in tarjetas.values() if "t" in c], key=lambda c: c["t"])
-    img_tarjeta = {c["id"]: render_tarjeta(c["texto"], W, escala=cfg["capas"].get("tarjeta_escala", 1.0)) for c in orden}
+    img_tarjeta = {c["id"]: render_tarjeta(c["texto"], W, escala=cfg["capas"].get("tarjeta_escala", 1.0),
+                                           ancho_escala=1.0) for c in orden}
     img_mini = {c["id"]: render_tarjeta(c["texto"], W, escala=cfg["capas"]["cuenta_escala"]) for c in orden}
     grupos = agrupar(tokens_abs, W, cfg)
     fin_placa = total - cfg["placa"]["dur"]
