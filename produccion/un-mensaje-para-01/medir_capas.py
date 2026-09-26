@@ -14,7 +14,8 @@ durs = [float(l.split()[1]) for l in lst[1:] if l.startswith("duration")]
 t0 = np.concatenate([[0], np.cumsum(durs)])
 cap = cv2.VideoCapture(f"{T}/base.mp4")
 fps = cap.get(5)
-det = cv2.FaceDetectorYN.create(sys.argv[0].rsplit("/", 1)[0] + "/modelos/yunet.onnx", "", (1080, 1920), 0.6)
+import os
+det = cv2.FaceDetectorYN.create(os.path.join(os.path.dirname(os.path.abspath(__file__)), "modelos", "yunet.onnx"), "", (1080, 1920), 0.6)
 res = {}
 for s in np.arange(0.25, cortes[-1], 0.5):
     cap.set(1, int(s * fps))
