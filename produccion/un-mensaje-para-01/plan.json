@@ -222,9 +222,9 @@
   ],
   "cuestionario": {
     "escena": 7,
-    "src": "PENDIENTE_grabacion_cuestionario",
-    "src_in": 0.8,
-    "velocidad": 1.0,
+    "src": "https://d2ol7oe51mr4n9.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/4b946ccb-4420-4591-a4b8-9fb837e7e244.mp4",
+    "src_in": 1.0,
+    "velocidad": 1.97,
     "desde": 3.0,
     "hasta": 9.2,
     "pip": {
@@ -232,7 +232,8 @@
       "y": 1080,
       "w": 320,
       "radio": 28
-    }
+    },
+    "_nota": "grabación del 26-sep: 13,2 s, pasos 1 a 6; el paso 6 (formulario) empieza en 10,68 s. A x1,97 caben del primer toque al formulario en 6,2 s"
   },
   "placa": {
     "dur": 4.0,
