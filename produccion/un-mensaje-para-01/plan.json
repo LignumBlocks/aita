@@ -1,0 +1,330 @@
+{
+  "_nota": "Plan de montaje de «Un mensaje para… · episodio 1». Subtítulos: [lo que se ve|lo que se oye], *palabra clave*, {cN} = la tarjeta N entra con la palabra siguiente. Tarjetas: **número** en DM Mono terracota, *clave* en terracota. Tiempos en segundos. `escenas` lleva los clips reales (in/out se miden con medir.py); `escenas_muestra` arma la plantilla con las fotos de arranque.",
+  "W": 1080,
+  "H": 1920,
+  "fps": 30,
+  "titulo": {
+    "linea1": "UN MENSAJE PARA:",
+    "linea2": "los que pagan más de **$2,000** de renta"
+  },
+  "capas": {
+    "titulo_y": 200,
+    "hueco": 6,
+    "max_tarjetas": 2,
+    "cuenta": {
+      "escena": 7,
+      "desde": 0.0,
+      "hasta": 2.7,
+      "velo": 0.45
+    },
+    "cuenta_escala": 0.82,
+    "tarjeta_escala": 0.85
+  },
+  "subs": {
+    "size": 78,
+    "borde": 7,
+    "max_palabras": 3,
+    "y": 1160,
+    "y_cuestionario": 900
+  },
+  "tarjetas": [
+    {
+      "id": "c1",
+      "texto": "**$2,200** de renta → condo de **~$170,000**"
+    },
+    {
+      "id": "c2",
+      "texto": "Para entrar: *¿cuánto?* Depende de tu crédito y tus ahorros"
+    },
+    {
+      "id": "c3",
+      "texto": "*Miami-Dade:* ayuda para el pago inicial"
+    },
+    {
+      "id": "c4",
+      "texto": "Ingreso: **~$53,000** al año"
+    },
+    {
+      "id": "c5",
+      "texto": "*5 años* de renta = **$132,000** → para tu landlord"
+    }
+  ],
+  "escenas": [
+    {
+      "id": 1,
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_212138_7ef16e33-fd47-4184-901d-db0774c3ce87.mp4",
+      "in": 0.0,
+      "out": 9.7,
+      "insertos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_212315_0ddd816b-189b-42f3-893f-f6074a05b1ed.mp4",
+          "en": 4.6,
+          "dur": 2.0,
+          "src_in": 0.5,
+          "vol": 0.4
+        }
+      ],
+      "subs": "Un mensaje para los que pagan más de [*$2,000*|dos mil dólares] de *renta*: tu renta ya alcanza para un *condo*. Lo que te falta es *otra* *cosa*."
+    },
+    {
+      "id": 2,
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_212139_c05e5d46-f6fb-464a-90cd-3c050d9fae5c.mp4",
+      "in": 0.0,
+      "out": 10.0,
+      "insertos": [],
+      "subs": "Si pagas [*$2,200*|dos mil doscientos] de renta, hoy te alcanza para un condo de {c1}[*~$170,000*|unos ciento setenta mil]. Y eso contando impuestos, seguro y mantenimiento."
+    },
+    {
+      "id": 3,
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_212236_9b2eef8c-fc4a-4809-9c88-81d2ea049e0d.mp4",
+      "in": 0.0,
+      "out": 11.0,
+      "insertos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_212314_526fc931-cb1a-46f6-9b48-073b2a5c0710.mp4",
+          "en": 0.5,
+          "dur": 2.2,
+          "src_in": 0.5,
+          "vol": 0.4
+        }
+      ],
+      "subs": "¿Entonces qué te *falta*? El pago del mes no: ese ya lo haces. Te falta el {c2}*dinero* *para* *entrar*. Y ese número depende de tu *crédito* y de tus *ahorros*."
+    },
+    {
+      "id": 4,
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_212138_eef3a0a0-bec8-4214-907c-fede7ee712fe.mp4",
+      "in": 0.0,
+      "out": 10.0,
+      "insertos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_212314_86b3a9e7-ba30-42bb-ac14-553b2342d9be.mp4",
+          "en": 0.2,
+          "dur": 2.2,
+          "src_in": 0.5,
+          "vol": 0.4
+        }
+      ],
+      "subs": "Y aquí viene lo *bueno*. El condado de {c3}[*Miami-Dade*|miami dade] tiene *ayuda* para el pago inicial, y casi nadie la conoce. Yo te digo si *calificas*."
+    },
+    {
+      "id": 5,
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_212237_a9429bad-055b-4c9d-9dd9-909850f771c2.mp4",
+      "in": 0.0,
+      "out": 9.0,
+      "insertos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_212314_f686011f-0e9a-4a6f-b995-d6feaecfbb95.mp4",
+          "en": 6.6,
+          "dur": 2.2,
+          "src_in": 0.5,
+          "vol": 0.4
+        }
+      ],
+      "subs": "¿Y el *banco*? Para un condo así, el banco te pide ganar {c4}unos [*$53,000*|cincuenta y tres mil] al año, si no tienes otras deudas."
+    },
+    {
+      "id": 6,
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_212236_3c597494-d8cf-4f6e-a6c8-7671d5a83fb0.mp4",
+      "in": 0.0,
+      "out": 10.0,
+      "insertos": [],
+      "subs": "Míralo así: tú ya pagas una *hipoteca*. La de tu *landlord*. En [5 años|cinco años] le das {c5}[*$132,000*|ciento treinta y dos mil dólares]. Y la casa sigue siendo *de* *él*."
+    },
+    {
+      "id": 7,
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_212236_cc819bfa-3a77-45bd-9785-f2859fed7cd2.mp4",
+      "in": 0.0,
+      "out": 11.0,
+      "insertos": [],
+      "subs": "Esa es la *cuenta* de alguien como tú. ¿Cuánto te falta *a* *ti* para entrar? Te lo calculo en [*umbralio.com*|umbralio punto com]. Soy Nelson, *realtor*. Ese era tu *mensaje*."
+    }
+  ],
+  "escenas_muestra": [
+    {
+      "id": 1,
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_195138_ce836ea4-3f00-4fc6-8845-63267847a516.png",
+      "in": 0,
+      "out": 11.0,
+      "insertos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_203441_6fb99cf9-58a8-4a08-a924-bc75c49f5b27.png",
+          "en": 5.0,
+          "dur": 2.2
+        }
+      ],
+      "subs": "Un mensaje para los que pagan más de [*$2,000*|dos mil dólares] de *renta*: tu renta ya alcanza para un *condo*. Lo que te falta es *otra* *cosa*."
+    },
+    {
+      "id": 2,
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_195442_6bc90946-4313-4452-88d4-151e7d1d4285.png",
+      "in": 0,
+      "out": 10.0,
+      "insertos": [],
+      "subs": "Si pagas [*$2,200*|dos mil doscientos] de renta, hoy te alcanza para un condo de {c1}[*~$170,000*|unos ciento setenta mil]. Y eso contando impuestos, seguro y mantenimiento."
+    },
+    {
+      "id": 3,
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_205424_dcdc8eda-c377-45aa-9fbe-85d36cae88ce.png",
+      "in": 0,
+      "out": 12.0,
+      "insertos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_203441_15dc4b01-8140-4e48-b6b3-8b253e52e292.png",
+          "en": 0.6,
+          "dur": 2.2
+        }
+      ],
+      "subs": "¿Entonces qué te *falta*? El pago del mes no: ese ya lo haces. Te falta el {c2}*dinero* *para* *entrar*. Y ese número depende de tu *crédito* y de tus *ahorros*."
+    },
+    {
+      "id": 4,
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_205423_6e489f87-af10-42ab-8da7-70038c24b855.png",
+      "in": 0,
+      "out": 12.0,
+      "insertos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_203441_74d6bff3-0246-43a9-92d7-5d9f8cf0ed3b.png",
+          "en": 0.2,
+          "dur": 2.4
+        }
+      ],
+      "subs": "Y aquí viene lo *bueno*. El condado de {c3}[*Miami-Dade*|miami dade] tiene *ayuda* para el pago inicial, y casi nadie la conoce. Yo te digo si *calificas*."
+    },
+    {
+      "id": 5,
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_203441_e1e3e993-5c96-4093-99e8-83f43b7e62c8.png",
+      "in": 0,
+      "out": 11.0,
+      "insertos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_203442_0f6cb0c6-3158-40be-a82e-dddb12fb07ac.png",
+          "en": 8.6,
+          "dur": 2.2
+        }
+      ],
+      "subs": "¿Y el *banco*? Para un condo así, el banco te pide ganar {c4}unos [*$53,000*|cincuenta y tres mil] al año, si no tienes otras deudas."
+    },
+    {
+      "id": 6,
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_195442_258a581d-ab57-4022-a3e1-91b9d05f661f.png",
+      "in": 0,
+      "out": 12.0,
+      "insertos": [],
+      "subs": "Míralo así: tú ya pagas una *hipoteca*. La de tu *landlord*. En [5 años|cinco años] le das {c5}[*$132,000*|ciento treinta y dos mil dólares]. Y la casa sigue siendo *de* *él*."
+    },
+    {
+      "id": 7,
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_195442_258a581d-ab57-4022-a3e1-91b9d05f661f.png",
+      "in": 0,
+      "out": 13.0,
+      "insertos": [],
+      "subs": "Esa es la *cuenta* de alguien como tú. ¿Cuánto te falta *a* *ti* para entrar? Te lo calculo en [*umbralio.com*|umbralio punto com]. Soy Nelson, *realtor*. Ese era tu *mensaje*."
+    }
+  ],
+  "cuestionario": {
+    "escena": 7,
+    "src": "https://d2ol7oe51mr4n9.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/4b946ccb-4420-4591-a4b8-9fb837e7e244.mp4",
+    "src_in": 5.0,
+    "velocidad": 1.93,
+    "desde": 2.75,
+    "hasta": 7.0,
+    "pip": {
+      "x": 36,
+      "y": 1080,
+      "w": 320,
+      "radio": 28
+    },
+    "_nota": "grabación del 26-sep: 13,2 s, pasos 1 a 6; el paso 6 (formulario) empieza en 10,68 s. A x1,97 caben del primer toque al formulario en 6,2 s"
+  },
+  "placa": {
+    "dur": 4.0,
+    "marca": "umbralio.com",
+    "bajada": "¿Cuánto te falta a ti para entrar?",
+    "letra_chica": "Ejemplo orientativo: precio de mercado con impuestos, seguro y mantenimiento promedio de Miami-Dade, a la tasa de hoy. No es una oferta de crédito ni una aprobación. La ayuda de Miami-Dade tiene requisitos. Nelson Paredes, realtor · FL SL3654769 · One Stop Realty. Video hecho con IA a partir de la imagen y la voz de Nelson.",
+    "y_marca": 0.27,
+    "y_letra": 0.44
+  },
+  "escenas_muestra_cocina_nelson": [
+    {
+      "id": 1,
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_231325_0147da7a-9a8e-46df-9833-869182932da6.png",
+      "in": 0,
+      "out": 11.0,
+      "insertos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_231136_7e726818-452e-43fa-ab7c-17d247f4a9fb.png",
+          "en": 5.0,
+          "dur": 2.2
+        }
+      ],
+      "subs": "Un mensaje para los que pagan más de [*$2,000*|dos mil dólares] de *renta*: tu renta ya alcanza para un *condo*. Lo que te falta es *otra* *cosa*."
+    },
+    {
+      "id": 2,
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_231136_6318beed-1728-4da9-9e7d-f3dbe20b6ad6.png",
+      "in": 0,
+      "out": 10.0,
+      "insertos": [],
+      "subs": "Si pagas [*$2,200*|dos mil doscientos] de renta, hoy te alcanza para un condo de {c1}[*~$170,000*|unos ciento setenta mil]. Y eso contando impuestos, seguro y mantenimiento."
+    },
+    {
+      "id": 3,
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_231407_ce61bf4c-8809-40ec-a769-ad655a2281ab.png",
+      "in": 0,
+      "out": 12.0,
+      "insertos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_231136_be1b2467-bc32-4bc1-b810-23599e42c3a3.png",
+          "en": 0.6,
+          "dur": 2.2
+        }
+      ],
+      "subs": "¿Entonces qué te *falta*? El pago del mes no: ese ya lo haces. Te falta el {c2}*dinero* *para* *entrar*. Y ese número depende de tu *crédito* y de tus *ahorros*."
+    },
+    {
+      "id": 4,
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_231136_a1ab6b86-1783-406c-aebd-d8a8c6c14351.png",
+      "in": 0,
+      "out": 12.0,
+      "insertos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_231136_dcba0090-f5be-4e8e-9597-1d4f2168fb2f.png",
+          "en": 0.2,
+          "dur": 2.4
+        }
+      ],
+      "subs": "Y aquí viene lo *bueno*. El condado de {c3}[*Miami-Dade*|miami dade] tiene *ayuda* para el pago inicial, y casi nadie la conoce. Yo te digo si *calificas*."
+    },
+    {
+      "id": 5,
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_231136_22f65180-320a-4f02-a179-39543f16a7c0.png",
+      "in": 0,
+      "out": 11.0,
+      "insertos": [
+        {
+          "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_231136_016fce02-221b-4eed-a5cf-09be3b65fce4.png",
+          "en": 8.6,
+          "dur": 2.2
+        }
+      ],
+      "subs": "¿Y el *banco*? Para un condo así, el banco te pide ganar {c4}unos [*$53,000*|cincuenta y tres mil] al año, si no tienes otras deudas."
+    },
+    {
+      "id": 6,
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_231136_f61c9862-e2b3-4006-b088-6a7d0bc47fbe.png",
+      "in": 0,
+      "out": 12.0,
+      "insertos": [],
+      "subs": "Míralo así: tú ya pagas una *hipoteca*. La de tu *landlord*. En [5 años|cinco años] le das {c5}[*$132,000*|ciento treinta y dos mil dólares]. Y la casa sigue siendo *de* *él*."
+    },
+    {
+      "id": 7,
+      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_36cfr0plJt7eQqcK83OjeHA0YJ9/hf_20260926_231136_f61c9862-e2b3-4006-b088-6a7d0bc47fbe.png",
+      "in": 0,
+      "out": 13.0,
+      "insertos": [],
+      "subs": "Esa es la *cuenta* de alguien como tú. ¿Cuánto te falta *a* *ti* para entrar? Te lo calculo en [*umbralio.com*|umbralio punto com]. Soy Nelson, *realtor*. Ese era tu *mensaje*."
+    }
+  ],
+  "_version_escenas": "condo: los 11 clips que tiró otra sesión el 26-sep a las 21:21 UTC (medidos con medir.py y caras.py)"
+}
